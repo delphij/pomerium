@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1680541370831,
-  "repoUrl": "https://github.com/pomerium/pomerium",
+  "lastUpdate": 1704176549808,
+  "repoUrl": "https://github.com/delphij/pomerium",
   "entries": {
     "Benchmark": [
       {
@@ -40120,6 +40120,42 @@ window.BENCHMARK_DATA = {
             "value": 7931610,
             "unit": "ns/op",
             "extra": "153 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "cdoxsey@pomerium.com",
+            "name": "Caleb Doxsey",
+            "username": "calebdoxsey"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7eb7861f2ca9fd7e76ada9cbdaf7536b4c8ddfbf",
+          "message": "core: fix graceful stop (#4865)\n\n* core/grpc: fix graceful stop\r\n\r\n* core/http: add graceful stop serve",
+          "timestamp": "2023-12-29T10:18:08-07:00",
+          "tree_id": "f3cf56eeebfa6702fb82254f6e530c4765ca9c96",
+          "url": "https://github.com/delphij/pomerium/commit/7eb7861f2ca9fd7e76ada9cbdaf7536b4c8ddfbf"
+        },
+        "date": 1704176547862,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkLoggedInUserAccess",
+            "value": 10393389,
+            "unit": "ns/op",
+            "extra": "128 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkLoggedOutUserAccess",
+            "value": 6914922,
+            "unit": "ns/op",
+            "extra": "164 times\n4 procs"
           }
         ]
       }
